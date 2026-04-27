@@ -65,7 +65,7 @@ make install
 ```
 
 
-### Finstal Steps:
+### Final Steps:
 ```
 make -f haiku.makefile release
 open jamin*.hpkg
