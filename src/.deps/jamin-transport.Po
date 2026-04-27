@@ -1,0 +1,31 @@
+jamin-transport.o: transport.c /boot/system/develop/headers/gnu/math.h \
+ /boot/system/develop/headers/posix/math.h \
+ /boot/system/develop/tools/lib/gcc/x86_64-unknown-haiku/13.3.0/include/limits.h \
+ /boot/system/develop/tools/lib/gcc/x86_64-unknown-haiku/13.3.0/include/syslimits.h \
+ /boot/system/develop/headers/posix/limits.h \
+ /boot/system/develop/headers/config/types.h \
+ /boot/system/develop/headers/config/HaikuConfig.h \
+ /boot/system/develop/tools/lib/gcc/x86_64-unknown-haiku/13.3.0/include/float.h \
+ /boot/system/develop/headers/posix/arch/x86_64/limits.h \
+ /boot/system/develop/headers/bsd/features.h ../jack/jack.h \
+ /boot/system/develop/headers/posix/stdint.h \
+ /boot/system/develop/tools/lib/gcc/x86_64-unknown-haiku/13.3.0/include/stddef.h \
+ debug.h io.h ../jack/types.h transport.h ../jack/transport.h
+/boot/system/develop/headers/gnu/math.h:
+/boot/system/develop/headers/posix/math.h:
+/boot/system/develop/tools/lib/gcc/x86_64-unknown-haiku/13.3.0/include/limits.h:
+/boot/system/develop/tools/lib/gcc/x86_64-unknown-haiku/13.3.0/include/syslimits.h:
+/boot/system/develop/headers/posix/limits.h:
+/boot/system/develop/headers/config/types.h:
+/boot/system/develop/headers/config/HaikuConfig.h:
+/boot/system/develop/tools/lib/gcc/x86_64-unknown-haiku/13.3.0/include/float.h:
+/boot/system/develop/headers/posix/arch/x86_64/limits.h:
+/boot/system/develop/headers/bsd/features.h:
+../jack/jack.h:
+/boot/system/develop/headers/posix/stdint.h:
+/boot/system/develop/tools/lib/gcc/x86_64-unknown-haiku/13.3.0/include/stddef.h:
+debug.h:
+io.h:
+../jack/types.h:
+transport.h:
+../jack/transport.h:
