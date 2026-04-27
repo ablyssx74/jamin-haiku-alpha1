@@ -23,7 +23,7 @@ pkgman fftw gtk3_x86 libxml2_x86 glib2_x86
 ```
 git clone https://github.com/swh/ladspa.git
 cd ladspa
-# 64bit
+
 pkgman install libtool list_moreutils list_moreutils_xs ladspa_sdk_devel
 ./autogen.sh
 ./configure --prefix=/boot/home/config/non-packaged
@@ -36,10 +36,16 @@ make install
 ### Build / Install libspa 32 Bit
 ```
 pkgman install libtool_x86 list_moreutils_xs_x86 ladspa_sdk_x86_devel
+
+git clone https://github.com/swh/ladspa.git
+cd ladspa
+
 ./autogen.sh
 ./configure --prefix=/boot/home/config/non-packaged
+
 curl-x86 -L https://cpanmin.us | perl - --self-upgrade
 cpanm List::MoreUtils
+
 # You will probably get an error: MoreUtils not installed... run this next
 setarch x86 cpanm --force Test::LeakTrace 
 
