@@ -65,10 +65,10 @@ make install
 ```
 
 
-### Build / Test jamin:
+### Finstal Steps:
 ```
 make -f haiku.makefile release
-open jamin-0.98.9-1-x86_64.hpkg
+open jamin*.hpkg
 
 ```
 
