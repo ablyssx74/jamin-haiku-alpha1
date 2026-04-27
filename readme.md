@@ -3,7 +3,7 @@
 ### Dependencies for building 64bit
 ```
 pkgman install fftw_devel gtk3_devel libxml2_devel gettext make automake autoconf libtool intltool pkgconfig glib2_devel
-``
+```
 #### 32bit
 ```
 pkgman fftw_devel gtk3_x86_devel libxml2_devel gettext make automake autoconf libtool_x86 intltool pkgconfig glib2_x86_devel
