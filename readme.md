@@ -1,21 +1,22 @@
 ### A port in progress of jamin to Haiku OS
 
-### Dependencies for building 64bit
+### Dependencies for 64bit
 ```
+# Build Dependencies
 pkgman install fftw_devel gtk3_devel libxml2_devel gettext make automake autoconf libtool intltool pkgconfig glib2_devel
-```
-#### 32bit
-```
-pkgman fftw_devel gtk3_x86_devel libxml2_devel gettext make automake autoconf libtool_x86 intltool pkgconfig glib2_x86_devel
-```
-### Dependencies for running 32bit
-```
+
+# Run Dependencies
 pkgman install fftw gtk3 libxml2 glib2
 ```
 
-#### 32bit
+### Dependencies for 32bit
 ```
+# Build Dependencies
+pkgman fftw_devel gtk3_x86_devel libxml2_devel gettext make automake autoconf libtool_x86 intltool pkgconfig glib2_x86_devel
+
+# Run Dependencies
 pkgman fftw gtk3_x86 libxml2_x86 glib2_x86
+
 ```
 
 ### Build / Install libspa 64 Bit
