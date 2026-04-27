@@ -1,7 +1,7 @@
 ### A port in progress of jamin to Haiku OS
 
 ### Download
-- #### Includes Ladspa
+( Includes Ladspa )
 - ##### [Releases](https://github.com/ablyssx74/jamin-haiku-alpha1/releases)
 
 ### Dependencies for 64bit
