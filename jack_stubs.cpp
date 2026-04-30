@@ -785,7 +785,7 @@ virtual void BufferReceived(BBuffer* b) override {
 
     media_header* inHdr = b->Header();
     bigtime_t systemNow = system_time(); 
-
+/*
     // --- XRUN TIMING DETECTION ---
     if (TimeSource()) {
         bigtime_t performanceNow = TimeSource()->Now();
@@ -795,7 +795,7 @@ virtual void BufferReceived(BBuffer* b) override {
              io_xrun(NULL); 
         }
     }
-
+*/
 
     if (fBufferGroup == NULL || fInput.source == media_source::null) {
         b->Recycle();
