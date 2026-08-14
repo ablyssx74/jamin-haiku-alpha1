@@ -9,7 +9,7 @@ VERSION = 0.98.9
 .PHONY: config build clean deepclean package release deps help
 
 UNAME_M := $(shell uname -p)
-ifeq ($(UNAME_M), x86)
+ifeq ($(UNAME_M), BePC)
 CXX = g++-x86 
 CC = gcc-x86
 MAKE := setarch x86 $(MAKE)
@@ -24,7 +24,7 @@ REQUIRED_RUNTIME_PKGS = fftw gtk3_x86 libxml2_x86 glib2_x86
 REQUIRED_BUILD_PKGS = fftw_devel gtk3_x86_devel libxml2_x86_devel gettext make automake autoconf libtool_x86 intltool pkgconfig glib2_x86_devel
 packageDir = /lib/x86
 tpl = 32.tpl
-else ifeq ($(UNAME_M), x86_64)
+else
 CXX = g++
 CC = gcc
 ARCH = x86_64
