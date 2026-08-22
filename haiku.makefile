@@ -8,7 +8,7 @@ VERSION = 0.98.9
 
 .PHONY: config build clean deepclean package release deps help
 
-UNAME_M := $(shell uname -p)
+UNAME_M := $(shell uname -m)
 ifeq ($(UNAME_M), BePC)
 CXX = g++-x86 
 CC = gcc-x86
